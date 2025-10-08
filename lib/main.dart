@@ -1,3 +1,4 @@
+import 'package:app_feirinha/home/drink.dart';
 import 'package:app_feirinha/home/home_product.dart';
 import 'package:app_feirinha/home/home_screen.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
       ),
       debugShowCheckedModeBanner: false,
-      home: ProductsScreen()// aguardando a classe
+      home: DrinksScreen()// aguardando a classe
     );
   }
 }
